@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.yourname.packetblocker.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "HealthLossMixin",
+    "HungerLossMixin",
+    "BlockBreakMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,12 @@
+modLoader = "fabric"
+loaderVersion = "[>=0.12.5]"
+license = "MIT"
+[[mods]]
+modId = "packetblocker"
+version = "1.0.0"
+displayName = "Packet Blocker Mod"
+description = "A mod that blocks certain packets in Minecraft. ITS IN THE TEST PHASE, SO FRICKING NOT WORKING."
+authors = ["ArianDJ"]
+contact {
+  sources = "https://github.com/Ariandj-alt/packetblocker"
+}

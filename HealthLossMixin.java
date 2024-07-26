@@ -12,7 +12,7 @@ public class HealthLossMixin {
 
     @Inject(method = "damage", at = @At("HEAD"), cancellable = true)
     public void preventHealthLoss(DamageSource source, float amount, CallbackInfoReturnable<Boolean> cir) {
-        // Blokkeert gezondheidsschade
+        // Blocks damage
         cir.setReturnValue(false);
     }
 }

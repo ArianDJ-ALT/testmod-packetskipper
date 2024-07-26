@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "packetblocker",
+  "version": "1.0.0",
+  "name": "Packet Blocker Mod",
+  "description": "Blocks certain packets in Minecraft. Test phase.",
+  "authors": [
+    "Your Name"
+  ],
+  "contact": {
+    "sources": "https://github.com/ariandj-alt/packetblocker"
+  },
+  "license": "MIT",
+  "icon": "assets/packetblocker/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.yourname.packetblocker.PacketBlockerMod"
+    ]
+  },
+  "mixins": [
+    "packetblocker.mixin.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "minecraft": "1.20.x",
+    "java": ">=16"
+  }
+}
